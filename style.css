@@ -1,4 +1,9 @@
-li>img {
+body {
+    background: url(images/background.avif);
+}
+
+
+ li>img {
     width: 100px;
 }
 
@@ -332,6 +337,163 @@ li>img {
     border-radius: 5px;
 }
 
+.image-1 {
+    opacity: 0.5;
+}
 
+.image-1:hover {
+    opacity: 1;
+}
+
+.image-text {
+    font-size: 25px;
+}
+
+.image-1 {
+    width: 100%;
+}
+
+.image-1>img {
+    width: 250px;
+}
+
+.slide-1>.image-text>.right-side {
+    margin-left: 70px !important;
+}
+
+.image-1>img {
+    background-color: #616161;
+    border-left: 3px solid #232323;
+    border-right: 3px solid #232323;
+}
+
+.image-1>.slide-1 {
+    background-color: black;
+    width: 98.2%;
+    color: white;
+    padding-left: 10px;
+}
+
+.image-1>.slide-1>.btn-1 {
+    color: white;
+    
+} 
+
+.image-1>.slide-1>.image-text-1>.btn-1 {
+    background-color: #4dad5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-left: 80px !important;
+}
+
+.image-1>.slide-1>.image-text-1>.btn-2 {
+    background-color: #d56723;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.image-1>.slide-1>.image-text-1>.btn-two {
+    margin-left: 120px !important;
+}
+
+.slide-1>p>.hold-1 {
+    margin-left: 70px !important;
+    text-transform: capitalize;
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+}
+
+.slow {
+    font-size: 30px;
+}
+
+.slowed {
+    color: #616161;
+    background-color: black;
+    width: 29%;
+    padding: 10px 10px;
+    margin-left: 12px;
+    margin-top: 60px !important;
+}
+
+/* .slide-end {
+    background-color: black;
+    color: #616161;
+    text-align: right;
+    font-size: 25px;
+    width: 30%;
+} */
+
+.slide-end>.btn-3 {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.slide-end {
+    text-align: right;
+}
+
+.image-2>img {
+    width: 100%;
+    column-gap: 2px;
+}
+
+.heading>h4 {
+    color: white;
+}
+
+.tall {
+    background-color: #1b53ba;
+    padding-left: 15px;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+
+.paragraph {
+    color: grey;
+}
+
+.heading {
+    padding-top: 20px;
+}
+
+.tall-1 {
+    background-color: #ff90c4;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.tall-2 {
+    background-color: #E3350D;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.tall-3 {
+    background-color: #30a7d7;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.onn {
+    margin-top: 30px !important;
+}
+
+p>h2 {
+    font-size: 30px;
+    color: #616161;
+}
 
 
